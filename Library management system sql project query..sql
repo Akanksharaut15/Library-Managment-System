@@ -66,7 +66,3 @@ use Library_m_system;
          group by m.member_id, m.member_name
          having count(r.issued_id)=0;
          
---10) Calculate the total fine collected by the library branch-wise.
-       select * from return_status;
-       select * from branch;
-       select * from issued_status;
